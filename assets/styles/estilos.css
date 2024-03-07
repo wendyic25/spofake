@@ -1,0 +1,25 @@
+.banner{
+    background-image: url("https://i.scdn.co/image/ab67616d00001e02172b684f5e6482f962b9a045");
+    padding: 25%;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+}
+
+.banner::after{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.fondoboton{
+    background-color: red;
+}
